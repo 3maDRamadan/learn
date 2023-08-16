@@ -2,10 +2,12 @@ import "./Foot.css"
 
 const Foot = () => {
   return (
-      <footer>
-        Designed and developed by Courses4Arab.com
-        <span>🧡</span>
-      </footer>
+      <div className="myfooter">
+        <footer>
+          Designed and developed by Courses4Arab.com
+          <span>🧡</span>
+        </footer>
+      </div>
   );
 }
 
