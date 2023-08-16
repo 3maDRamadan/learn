@@ -6,6 +6,7 @@ function App() {
       <h2>Emad Ramadan</h2>
       <p>Hello world</p>
       <h2>new update</h2>
+      <p>new branch</p>
     </>
   );
 }
