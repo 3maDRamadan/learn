@@ -5,6 +5,7 @@ function App() {
       <h1 className="title">c4a.dev</h1>
       <h2>Emad Ramadan</h2>
       <p>Hello world</p>
+      <h2>new update</h2>
     </>
   );
 }
