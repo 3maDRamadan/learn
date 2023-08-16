@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Header.css"
 const Header = () => {
   return (
     <div>
@@ -63,7 +64,7 @@ const Header = () => {
           </li>
         </ul>
       </header>
-      {/* <header className="show-when-mobile">
+      <header className="show-when-mobile">
         <h1>Courses 4 Arab</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
@@ -130,7 +131,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </header> */}
+      </header>
     </div>
   );
 };
