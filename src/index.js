@@ -9,7 +9,6 @@ import Html from "./pages/html";
 import Css from "./pages/css";
 import Javascript from "./pages/javascript";
 import App from "./App";
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,7 +32,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/app",
-    element: <App />,
+    element:<App/>,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

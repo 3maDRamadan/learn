@@ -3,8 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import "./Header.css"
 const Header = () => {
   return (
-    <div>
-      <header className="hide-when-mobile">
+    <div >
+      <header className="hide-when-mobile head">
         <h1>
           <Link to="/">Courses 4 Arab</Link>
         </h1>
@@ -64,7 +64,7 @@ const Header = () => {
           </li>
         </ul>
       </header>
-      <header className="show-when-mobile">
+      <header className="show-when-mobile head">
         <h1>Courses 4 Arab</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
